@@ -1,7 +1,7 @@
 .features-titles {
   font-weight: 700;
   font-size: 36px;
-    text-align: center;
+  text-align: center;
   line-height: 1.11111;
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -32,6 +32,9 @@
 }
 
 @media(min-width: 768px){
+    .features-titles{
+        text-align: left;
+    }
 
     .features .container{
         width: 768px;
