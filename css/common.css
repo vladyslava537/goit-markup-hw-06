@@ -45,6 +45,7 @@ ul, ol {
 @media (min-width: 1158px){
     .container{
         width: 1158px;
+        padding: 0 15px;
     }
 
     .section {

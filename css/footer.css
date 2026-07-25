@@ -31,13 +31,14 @@
     flex-direction: column;
     gap: 16px;
     width: 288px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer .container{
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 72px;
 }
 
@@ -156,8 +157,11 @@
     .footer .container{
         padding: 0px 108px;
         display: flex;
-        flex-direction: column;
-        gap: 72px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 24px;
+        row-gap: 72px;
     }
 
     .footer-icons{
@@ -178,25 +182,25 @@
     .subscribe-input{
         width: 264px;
     }
-
-    .logo-social-container{
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-    }
 }
 
 @media(min-width: 1158px){
-    .footer{
-        width: 1440px;
-    }
-
     .footer .container{
-        padding: 0px 15px;
-        flex-direction: row;
+        padding: 0 0;
+        flex-wrap: nowrap; 
+        justify-content: space-between;
     }
 
     .container-cont{
-        margin-right: 120px;
+        flex-shrink: 0;
+    }
+
+    .footer-icons{
+        flex-shrink: 0;
+    }
+
+    .forma-footer{
+        flex-basis: auto;
+        flex-shrink: 0;
     }
 }

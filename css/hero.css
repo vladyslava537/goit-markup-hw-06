@@ -2,16 +2,21 @@
     background-color: #2E2F42;
     padding: 72px 0px;
     background-image:
-    linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        image-set(
-            url("../images/hero-bg.jpg") 1x,
-            url("../images/hero-bg.jpg") 2x
-        );
+        linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 320px;
     margin: 0 auto;
+}
+
+@media (min-resolution: 2x){
+    .hero {
+        background-image: 
+            linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-bg@2x.jpg");
+    }
 }
 
 .hero-title{
@@ -86,7 +91,7 @@
     }
 
     .hero .container{
-        gap: 46px;
+        gap: 48px;
         padding: 0 15px;
     }
 }

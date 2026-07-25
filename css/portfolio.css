@@ -102,6 +102,6 @@
     }
 
     .portfolio-item{
-        flex-basis: calc((100% - 72px) / 3);
+        flex-basis: calc((100% - 48px) / 3);
     }
 }
