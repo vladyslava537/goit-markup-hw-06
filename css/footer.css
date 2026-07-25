@@ -20,6 +20,8 @@
 .footer-disc{
     color: #F4F4FD;
     font-weight: 400;
+    width: 100%; 
+    text-align: left;
 }
 
 .footer-text{
@@ -193,7 +195,7 @@
         padding: 0 15px;
         flex-wrap: nowrap; 
         justify-content: flex-start;
-        column-gap: 80px;
+        column-gap: 120px;
     }
 
     .container-cont{
@@ -207,5 +209,6 @@
     .forma-footer{
         flex-basis: auto;
         flex-shrink: 0;
+        margin-left: auto;
     }
 }

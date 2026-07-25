@@ -98,7 +98,8 @@
 
 @media(min-width: 768px){
     .team .container{
-        width: 768px;
+        max-width: 768px;
+        width: 100%;
         padding: 0 16px;
     }
 
@@ -118,7 +119,8 @@
 
 @media(min-width: 1158px){
     .team .container{
-        width: 1158px;
+        max-width: 1158px;
+        width: 100%;
         padding: 0 15px;
     }
 
